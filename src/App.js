@@ -40,9 +40,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header 
-          selected={this.state.selected} 
-          features={this.props.features}/>      
+        <Header />      
         <main>
           <Form 
             selected={this.state.selected} 
